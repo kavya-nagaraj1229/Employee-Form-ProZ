@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import Label from './Label';
+import Form from './Form';
+import "./Style.css";
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+    <Label />
+    <Form />
+
+
+  </React.StrictMode>
+);
+
